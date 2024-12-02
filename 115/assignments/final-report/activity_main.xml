@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:paddingStart="35dp"
+    android:paddingEnd="35dp"
+    android:paddingTop="80dp"
+    android:paddingBottom="35dp"
+    android:layoutDirection="ltr">
+
+    <!-- Greeting Message -->
+    <TextView
+        android:id="@+id/greetingMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textAlignment="viewStart"
+        android:padding="8dp" />
+
+    <!-- Destination Name -->
+    <TextView
+        android:id="@+id/destinationName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="8dp" />
+
+    <!-- Locale Selector -->
+    <Spinner
+        android:id="@+id/localeSelector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
