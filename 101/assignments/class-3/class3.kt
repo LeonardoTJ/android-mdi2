@@ -1,3 +1,4 @@
+/*
 fun main() {
   // Create a new user
   val user = User("Alice Johnson", 26, "@alice_j_new", true)
@@ -77,3 +78,4 @@ class User(
   }
 }
 
+*/
