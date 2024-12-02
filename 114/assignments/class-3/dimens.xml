@@ -1,0 +1,11 @@
+<!--Phone-->
+<resources>
+    <dimen name="padding_default">50dp</dimen>
+    <dimen name="text_size_default">35sp</dimen>
+</resources>
+
+<!--Tablet-->
+<resources>
+    <dimen name="padding_default">100dp</dimen>
+    <dimen name="text_size_default">55sp</dimen>
+</resources>
